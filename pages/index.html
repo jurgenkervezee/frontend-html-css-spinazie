@@ -67,61 +67,64 @@
     </ol>
 
     <p>
-        <strong>Bereidingstip:</strong> Je kunt de lasagne 1 dag van tevoren maken tot en met het
+        <strong>Bereidingstip:</strong>
+        Je kunt de lasagne 1 dag van tevoren maken tot en met het
         afbakken in de <br/> oven. Bewaar afgedekt in de koelkast en laat tijdens het voorverwarmen van de oven op
         kamertemperatuur komen.
     </p>
 </section>
 <footer>
-    <h3>Bedank voor het lezen van dit recept. Laat ons weten wat je ervan vond</h3>
+    <h3>Bedankt voor het lezen van dit recept. Laat ons weten wat je ervan vond</h3>
 
     <form action="http://www.voorbeeld.nl/review.php">
-        <fieldset>
-        <legend>Gegevens:</legend>
-        <label for="name-field">Naam</label>
+        <fieldset style="max-width: 800px">
+            <legend>Gegevens:</legend>
+            <label for="name-field">Naam</label>
             <input id="name-field" type="text"/>
             <br/>
             <br/>
-        <label for="email-field">Email</label>
+            <label for="email-field">Email</label>
             <input id="email-field" type="email"/>
         </fieldset>
-        <br/>
-        <fieldset>
-        <legend>Jouw review</legend>
-            <br/>
-        <label for="recepts-found">Hoe heb je dit recept gevonden?</label>
-        <select name="recepts-found" id="recepts-found">
-            <option value="Anders">Anders</option>
-            <option value="Google">Google</option>
-            <option value="Je Oma">Je Oma</option>
-        </select>
 
-        <p>
-            <label>Zou je dit recept willen uitproberen?</label>
-            <br/>
-            <br/>
-            <input type="radio" id="recipe-tryout-no" name="recept-uitproberen"/>
-            <label for="recipe-tryout-no">Nee</label>
-            <input type="radio" id="recipe-tryout-yes" name="recept-uitproberen"/>
-            <label for="recipe-tryout-yes">Ja</label>
-            <input type="radio" id="recipe-tryout-maybe" name="recept-uitproberen"/>
-            <label for="recipe-tryout-maybe">Misschien</label>
-        </p>
+        <fieldset style="max-width: 800px">
+            <legend>Jouw review:</legend>
 
-        <p>
-            <label for="remarks">Opmerkingen:</label>
-            <br/>
-            <textarea cols="50" rows="4" placeholder="Wat vond je van het recept?" id="remarks"></textarea>
-        </p>
+            <p>
+                <label for="recepts-found">Hoe heb je dit recept gevonden?</label>
+                <select name="recepts-found" id="recepts-found">
+                    <option value="Anders">Anders</option>
+                    <option value="Google">Google</option>
+                    <option value="Je Oma">Je Oma</option>
+                </select>
+            </p>
 
-        <p>
-        <input type="checkbox" checked id="newsletter"/>
-            <label for="newsletter">Schrijf me in voor de nieuwsbrief</label>
-        </p>
-        <button type="submit">Versturen</button>
+            <p>
+                <label>Zou je dit recept willen uitproberen?</label>
+                <br/>
+                <br/>
+                <input type="radio" id="recipe-tryout-no" name="recept-uitproberen"/>
+                <label for="recipe-tryout-no">Nee</label>
+                <input type="radio" id="recipe-tryout-yes" name="recept-uitproberen"/>
+                <label for="recipe-tryout-yes">Ja</label>
+                <input type="radio" id="recipe-tryout-maybe" name="recept-uitproberen"/>
+                <label for="recipe-tryout-maybe">Misschien</label>
+            </p>
+
+            <p>
+                <label for="remarks">Opmerkingen:</label>
+                <br/>
+                <textarea cols="50" rows="4" placeholder="Wat vond je van het recept?" id="remarks"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" checked id="newsletter"/>
+                <label for="newsletter">Schrijf me in voor de nieuwsbrief</label>
+            </p>
+
+            <button type="submit">Versturen</button>
         </fieldset>
     </form>
 </footer>
-
 </body>
 </html>
